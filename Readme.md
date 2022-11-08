@@ -1,4 +1,6 @@
-# Instructions
+# Share KeePass secrets
+
+This little 'solution' enables you to share secrets directly from KeePass using [OneTimeSecret](https://onetimesecret.com).
 
 ## Installation
 
