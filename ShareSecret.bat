@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File %1\ShareSecret.ps1 %2 %3 %4

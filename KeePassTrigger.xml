@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TriggerCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Triggers>
+		<Trigger>
+			<Guid>bAd5j1Pjbk25nSgyXlsNRA==</Guid>
+			<Name>CreateShareButton</Name>
+			<Events>
+				<Event>
+					<TypeGuid>1M7NtUuYT/KmqeJVJh7I6A==</TypeGuid>
+					<Parameters />
+				</Event>
+			</Events>
+			<Conditions />
+			<Actions>
+				<Action>
+					<TypeGuid>lYGPRZlmSYirPoboGpZoNg==</TypeGuid>
+					<Parameters>
+						<Parameter>SHARE</Parameter>
+						<Parameter>Share</Parameter>
+						<Parameter>Share secret securely</Parameter>
+					</Parameters>
+				</Action>
+			</Actions>
+		</Trigger>
+		<Trigger>
+			<Guid>G8n4T2glA0erW1eNP65ZHw==</Guid>
+			<Name>ClickShare</Name>
+			<Events>
+				<Event>
+					<TypeGuid>R0dZkpenQ6K5aB8fwvebkg==</TypeGuid>
+					<Parameters>
+						<Parameter>SHARE</Parameter>
+					</Parameters>
+				</Event>
+			</Events>
+			<Conditions />
+			<Actions>
+				<Action>
+					<TypeGuid>2uX4OwcwTBOe7y66y27kxw==</TypeGuid>
+					<Parameters>
+						<Parameter>{DB_DIR}\ShareSecret.bat</Parameter>
+						<Parameter>"{DB_DIR}" "{TITLE}" "{USERNAME}" "{PASSWORD}"</Parameter>
+						<Parameter>True</Parameter>
+						<Parameter>0</Parameter>
+						<Parameter />
+					</Parameters>
+				</Action>
+			</Actions>
+		</Trigger>
+	</Triggers>
+</TriggerCollection>
