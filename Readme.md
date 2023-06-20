@@ -8,7 +8,8 @@ This little 'solution' enables you to share secrets directly from KeePass using 
 2. Edit `ShareSecret.ps1` : Set your name (Variable: $email_sig) and maybe change the message to your liking.
 3. Open `KeePassTrigger.xml` -> select all -> copy
 4. Open KeePass -> `Tools` -> `Triggers...` -> `Tools` -> `Paste Triggers From Clipboard`
-5. Save the database -> restart KeePass
+5. Activate "trigger system" checkbox
+6. Save the database -> restart KeePass
 
 ## How to use
 
