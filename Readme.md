@@ -13,6 +13,6 @@ This little 'solution' enables you to share secrets directly from KeePass using 
 
 ## How to use
 
-You should now have a custom button at the top called 'Share'. 
+You should now have a custom button at the top called 'Share'.
 
-If you click that button while having an entry selected, a secure password at onetimesecrets.com is created and an email will open with everything pre-filled except for the recipient. 
+If you click that button while having an entry selected, a secure password at onetimesecrets.com is created and an email will open with everything pre-filled except for the recipient.
