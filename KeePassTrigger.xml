@@ -38,8 +38,8 @@
 				<Action>
 					<TypeGuid>2uX4OwcwTBOe7y66y27kxw==</TypeGuid>
 					<Parameters>
-						<Parameter>{DB_DIR}\ShareSecret.bat</Parameter>
-						<Parameter>"{DB_DIR}" "{TITLE}" "{USERNAME}" "{PASSWORD}"</Parameter>
+						<Parameter>"{DB_DIR}\ShareSecret.bat"</Parameter>
+						<Parameter>{DB_DIR} "{TITLE}" "{USERNAME}" "{PASSWORD}"</Parameter>
 						<Parameter>True</Parameter>
 						<Parameter>0</Parameter>
 						<Parameter />
